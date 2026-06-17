@@ -1,3 +1,3 @@
-export function BannerEditor(_props: unknown) {
+export function BannerEditor(_props: Record<string, unknown>) {
   return null;
 }

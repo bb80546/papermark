@@ -1,3 +1,3 @@
-export function CollapsibleBrandingSection(_props: unknown) {
+export function CollapsibleBrandingSection(_props: Record<string, unknown>) {
   return null;
 }

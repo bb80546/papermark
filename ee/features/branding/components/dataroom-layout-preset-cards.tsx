@@ -1,3 +1,3 @@
-export function DataroomLayoutPresetCards(_props: unknown) {
+export function DataroomLayoutPresetCards(_props: Record<string, unknown>) {
   return null;
 }

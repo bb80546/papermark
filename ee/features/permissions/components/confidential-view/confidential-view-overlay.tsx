@@ -1,3 +1,3 @@
-export function ConfidentialViewOverlay(_props: unknown) {
+export function ConfidentialViewOverlay(_props: Record<string, unknown>) {
   return null;
 }

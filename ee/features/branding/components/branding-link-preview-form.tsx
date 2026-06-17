@@ -1,3 +1,3 @@
-export function BrandingLinkPreviewForm(_props: unknown) {
+export function BrandingLinkPreviewForm(_props: Record<string, unknown>) {
   return null;
 }

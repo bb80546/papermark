@@ -1,3 +1,3 @@
-export function RequestListView(_props: unknown) {
+export function RequestListView(_props: Record<string, unknown>) {
   return null;
 }

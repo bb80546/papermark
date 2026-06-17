@@ -23,6 +23,14 @@ export const rateLimiters = {
     enableProtection: true,
     analytics: true,
   }),
+
+  // Bulk link import: 10 requests per hour per user
+  bulkLinkImport: new Ratelimit({
+    redis,
+    limiter: Ratelimit.slidingWindow(10, "60 m"),
+    prefix: "rl:bulkLinkImport",
+    analytics: true,
+  }),
 };
 
 /**
