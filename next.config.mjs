@@ -355,6 +355,7 @@ const nextConfig = {
     // that we don't use (only needed for KMS-based PDF encryption)
     config.resolve.alias = {
       ...config.resolve.alias,
+      "@react-email/components": "@react-email/ui",
       "@google-cloud/kms": false,
       "@google-cloud/secret-manager": false,
       // Jackson pulls TypeORM/Mongo optional drivers we don't use (Postgres-only setup).
